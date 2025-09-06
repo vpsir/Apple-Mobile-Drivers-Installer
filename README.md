@@ -42,8 +42,15 @@ The script itself requires an internet connection in order to download drivers f
 
 Anyways, that makes no problem: you can just move them out and install them yourself this way!
 
+_(Recommanded way as it installs new drivers)_
 - Download **iTunes** from [here](https://www.apple.com/itunes/download/win64)
-- Extract it (using WinRAR/7zip) and install **AppleMobileDeviceSupport64.msi**
+- Extract it (using WinRAR/7zip), go to the extracted folder and again extract **AppleMobileDeviceSupport64.msi**
+- In the windows explorer's search bar for that specific folder, search for **.inf** files
+- There will be two **.inf** files, simply right click and select **Install** for both
+
+OR  
+
+_(Installs old drivers)_
 - Download the .cab updates from the following links: [Apple USB Drivers](https://catalog.s.download.windowsupdate.com/d/msdownload/update/driver/drvs/2020/11/01d96dfd-2f6f-46f7-8bc3-fd82088996d2_a31ff7000e504855b3fa124bf27b3fe5bc4d0893.cab) - [Apple Tether USB Drivers](https://catalog.s.download.windowsupdate.com/c/msdownload/update/driver/drvs/2017/11/netaapl_7503681835e08ce761c52858949731761e1fa5a1.cab)
 - Extract the .cab files
 - Right click the .inf files in the same folder and select **Install**
